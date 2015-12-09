@@ -21,6 +21,6 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #++
 
-%w(cell row separator style table table_helper version).each do |file|
+%w(cell row separator style table table_helper version core_ext).each do |file|
   require "terminal-table/#{file}"
 end
